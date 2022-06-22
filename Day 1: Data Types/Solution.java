@@ -13,9 +13,8 @@ public class Solution {
           int i2;
           double d2;
           String s2;
+          
           /* Read and save an integer, double, and String to your variables. */
-          // Note: If you have trouble reading the entire String, please go back and
-          // review the Tutorial closely.
           i2 = scan.nextInt();
           d2 = scan.nextDouble();
           scan.nextLine();
