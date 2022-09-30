@@ -1,6 +1,3 @@
-**Objective:**
-In this challenge, we review some basic concepts that will get you started with this series.
-
 **Task:**
 To complete this challenge, you must save a line of input from stdin to a variable, print Hello, World. on a single line, and finally print the value of your variable on a second line.
 
@@ -16,7 +13,7 @@ Print Hello, World. on the first line, and the contents of  on the second line.
 Welcome to 30 Days of Code!
 
 **Sample Output:**
-Hello, World. 
+Hello, World.
 Welcome to 30 Days of Code!
 
 **Explanation:**
