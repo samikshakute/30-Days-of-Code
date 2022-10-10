@@ -28,6 +28,7 @@ public class Car {
     }
 
     // Getters and Setters
+    // use to get and set values of our properties.
     public int getMaxSpeed() {
         return this.maxSpeed;
     }
