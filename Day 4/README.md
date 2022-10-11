@@ -1,4 +1,4 @@
-**Task:** </br>
+~~**Task:** </br>
 Write a Person class with an instance variable, age, and a constructor that takes an integer, initialAge, as a parameter. The constructor must assign initialAge to age after confirming the argument passed as initialAge is not negative; if a negative argument is passed as initialAge, the constructor should set age to 0 and print Age is not valid, setting age to 0. In addition, you must write the following instance methods:
 
 * yearPasses() should increase the age instance variable by 1.
@@ -34,4 +34,4 @@ You are a teenager. </br>
 You are old. </br>
 
 You are old. </br>
-You are old.
+You are old.~~
