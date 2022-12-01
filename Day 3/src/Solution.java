@@ -1,4 +1,3 @@
-// Day 3: Intro to Conditional Statements
 import java.util.Scanner;
 
 public class Solution {

@@ -1,4 +1,3 @@
-// Day 4: Class vs. Instance
 import java.util.Scanner;
 
 public class Solution {

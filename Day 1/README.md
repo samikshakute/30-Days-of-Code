@@ -1,3 +1,4 @@
+### Day 1: Data Types
 **Task:**
 
 Declare 3 variables: one of type int, one of type double, and one of type String.
