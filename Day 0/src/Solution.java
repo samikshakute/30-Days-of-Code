@@ -1,3 +1,4 @@
+// Day 0: Hello, World.
 import java.util.Scanner;
 
 public class Solution {

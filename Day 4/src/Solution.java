@@ -1,3 +1,4 @@
+// Day 4: Class vs. Instance
 import java.util.Scanner;
 
 public class Solution {
@@ -19,7 +20,7 @@ public class Solution {
 class Person {
     int age; // instance variable
 
-    Person(int initialAge) {  // constructor with an integer parameter
+    Person(int initialAge) { // constructor with an integer parameter
         if (initialAge < 0) {
             age = 0;
             System.out.println("Age is not valid, setting age to 0.");
@@ -28,11 +29,11 @@ class Person {
         }
     }
 
-    public void yearPasses() { //instance method
+    public void yearPasses() { // instance method
         age++;
     }
 
-    public void amIOld() {     //instance method
+    public void amIOld() { // instance method
         if (age < 13) {
             System.out.println("You are young.");
         } else if (age >= 13 && age < 18) {

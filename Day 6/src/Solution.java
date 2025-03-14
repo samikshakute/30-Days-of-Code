@@ -1,3 +1,4 @@
+// Day 6: Let's Review
 import java.util.Scanner;
 
 public class Solution {

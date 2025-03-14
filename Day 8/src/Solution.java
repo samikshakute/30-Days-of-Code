@@ -1,3 +1,4 @@
+// Day 8: Dictionaries and Maps
 import java.util.HashMap;
 import java.util.Scanner;
 

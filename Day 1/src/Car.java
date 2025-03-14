@@ -1,7 +1,7 @@
 public class Car {
     // These are the properties of Car
     // These all are primitive data types
-    int maxSpeed = 100; //Camel case - famous writing style in programming
+    int maxSpeed = 100; // Camel case - famous writing style in programming
     int minSpeed = 0;
     double weight = 4079;
     boolean isTheCarOn = false;
