@@ -57,7 +57,7 @@ public class Car {
             System.out.println("Someone got in");
         } else {
             // otherwise print out the fact the car is full!
-            System.out.println("The car is full!" + numberOfPeopleInCar + " = " + maxNumberOfPeopleInCar);
+            System.out.println("The car is full! " + numberOfPeopleInCar + " = " + maxNumberOfPeopleInCar);
         }
     }
 
@@ -99,7 +99,6 @@ public class Car {
         tommyCar.getIn();
         tommyCar.getIn();
         tommyCar.getIn();
-        ;
         tommyCar.getIn();
         tommyCar.getIn();
         tommyCar.getIn();
