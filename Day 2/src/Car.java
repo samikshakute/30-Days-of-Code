@@ -29,7 +29,7 @@ public class Car {
         System.out.println(isTheCarOn);
         System.out.println(condition);
         System.out.println(nameOfCar);
-        System.out.println("Number of people in the car: "+numberOfPeopleInCar);
+        System.out.println("Number of people in the car: " + numberOfPeopleInCar);
     }
 
     public void wreckCar() {
@@ -59,20 +59,20 @@ public class Car {
     }
 
     public static void main(String[] args) {
-         Car birthdayPresent = new Car(500, 5000.545, true);
+        Car birthdayPresent = new Car(500, 5000.545, true);
         System.out.println("Birthday Car:");
-         birthdayPresent.printVariables();
-         Car christmasPresent = new Car(550, 2000, false);
+        birthdayPresent.printVariables();
+        Car christmasPresent = new Car(550, 2000, false);
         System.out.println("Christmas Car:");
-         christmasPresent.printVariables();
+        christmasPresent.printVariables();
         System.out.println("-----------------");
         System.out.println("Birthday Car v1:");
         birthdayPresent.printVariables();
         birthdayPresent.getIn();
         birthdayPresent.getIn();
         birthdayPresent.getIn();
-        System.out.println("Miles left: "+birthdayPresent.howManyMilesTillOutOfGas());
-        System.out.println("Max Miles: "+birthdayPresent.maxMilesPerFillUp());
+        System.out.println("Miles left: " + birthdayPresent.howManyMilesTillOutOfGas());
+        System.out.println("Max Miles: " + birthdayPresent.maxMilesPerFillUp());
         System.out.println();
         System.out.println("Birthday Car v2: ");
         birthdayPresent.printVariables();
