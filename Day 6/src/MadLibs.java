@@ -15,13 +15,7 @@ public class MadLibs {
     Random rand = new Random();
 
     // Getters and Setters!
-
-    public static void main(String[] args) {
-        MadLibs game = new MadLibs();
-        game.printInstructions();
-        game.play();
-    }
-
+    
     public String getStory() {
         return story;
     }
@@ -105,7 +99,7 @@ public class MadLibs {
 
     public void printInstructions() {
         System.out.println("Welcome to the MadLibs space. If you type in" +
-                " words, we'll give you a story. Start by typing in a name");
+            " words, we'll give you a story. Start by typing in a name");
     }
 
     // Get data from player
@@ -149,19 +143,19 @@ public class MadLibs {
         int num = Math.abs(rand.nextInt()) % 2;
         if (num == 0) {
 
-            story = "Sam and her best friend " + getName() + " went to the Disney World today! "
-                    + "They saw a " + getNoun1() + " in a show at the Magic Kingdom" +
-                    " and ate a " + getAdjective1() + " feast for dinner. The next day I" +
-                    " ran " + getAdverb() + " to meet Mickey Mouse in his " + getNoun2()
-                    + " and then that might I gazed at the " + getRandomNums() + ""
-                    + getAdjective2() + " fireworks shooting from the " + getNoun3() + ".";
+            story = "Sam and her best friend " + getName() + " went to the Disney World today! " +
+                "They saw a " + getNoun1() + " in a show at the Magic Kingdom" +
+                " and ate a " + getAdjective1() + " feast for dinner. The next day I" +
+                " ran " + getAdverb() + " to meet Mickey Mouse in his " + getNoun2() +
+                " and then that might I gazed at the " + getRandomNums() + "" +
+                getAdjective2() + " fireworks shooting from the " + getNoun3() + ".";
         } else {
-            story = "Amanda and her frenemy " + getName() + " went to the zoo last summer. "
-                    + "They saw a huge " + getNoun1() + " and a tiny little " + getNoun2() + ". That night"
-                    + " they decided to climb " + getAdverb() + " into the " + getNoun3() + " to get a closer look. "
-                    + "The zoo was " + getAdjective1() + " at night, but they didn't care... "
-                    + "until " + getRandomNums() + " " + getAdjective2() + " apes yelled in their face, making "
-                    + "Amanda and " + getName() + " sprint all the way back home.";
+            story = "Amanda and her frenemy " + getName() + " went to the zoo last summer. " +
+                "They saw a huge " + getNoun1() + " and a tiny little " + getNoun2() + ". That night" +
+                " they decided to climb " + getAdverb() + " into the " + getNoun3() + " to get a closer look. " +
+                "The zoo was " + getAdjective1() + " at night, but they didn't care... " +
+                "until " + getRandomNums() + " " + getAdjective2() + " apes yelled in their face, making " +
+                "Amanda and " + getName() + " sprint all the way back home.";
         }
         setStory(story);
     }
@@ -177,5 +171,11 @@ public class MadLibs {
         setRandomNums();
         putTogetherTheStory();
         System.out.println(getStory());
+    }
+
+    public static void main(String[] args) {
+        MadLibs game = new MadLibs();
+        game.printInstructions();
+        game.play();
     }
 }
